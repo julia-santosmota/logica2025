@@ -5,8 +5,8 @@ int main() {
 
 	scanf("%d", &A);
 	scanf("%d", &B);
-    scanf("%d", &C);
-    scanf("%d", &D);
+	scanf("%d", &C);
+	scanf("%d", &D);
 	X = (A * B - C * D);
 	printf("DIFERENCA = %d\n", X);
 
