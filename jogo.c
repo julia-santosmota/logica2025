@@ -70,11 +70,11 @@ int main() {
         linha--;
         coluna--;
         if (linha < 0 || linha > 8 || coluna < 0 || coluna > 8 || palpite < 1 || palpite > 9) {
-            printf("Jogada inválida! Tente outra posição.\n");
+            printf("\nJogada inválida! Tente outra posição.\n");
             continue;
         }
         if (tabuleiro[linha][coluna] != 0) {
-            printf("Jogada inválida! Posição já ocupada.\n");
+            printf("\nJogada inválida! Posição já ocupada.\n");
             continue;
         }
         if (verificar_jogada(linha, coluna, palpite)) {
@@ -86,7 +86,7 @@ int main() {
                 break;
             }
         } else {
-            printf("Jogada inválida! Número já existe na linha, coluna ou quadrante.\n");
+            printf("\nJogada inválida! Número já existe na linha, coluna ou quadrante.\n");
         }
     }
     return 0;
