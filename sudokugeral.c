@@ -42,7 +42,6 @@ int verificar_sudoku(char matriz[9][9][50]) {
             }
         }
     }
-
     return 1;
 }
 
