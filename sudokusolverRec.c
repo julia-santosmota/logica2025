@@ -1,3 +1,5 @@
+// fiz em dupla com a Sofia Maciel Nunes
+
 #include <stdio.h>
 
 int tabuleiro[9][9];
