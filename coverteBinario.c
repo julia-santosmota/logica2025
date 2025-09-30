@@ -1,4 +1,5 @@
 // converte numero decimal para binario
+
 #include <stdio.h>
 
 void converte_para_binario(int n) {
